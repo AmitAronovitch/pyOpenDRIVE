@@ -1,0 +1,3 @@
+[submodule "libOpenDRIVE"]
+	path = libOpenDRIVE
+	url = git@github.com:AmitAronovitch/libOpenDRIVE.git
