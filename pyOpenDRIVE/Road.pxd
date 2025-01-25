@@ -1,6 +1,6 @@
 # distutils: language=c++
 
-cdef extern from "../src/Road.cpp":
+cdef extern from "../libOpenDRIVE/src/Road.cpp":
     pass
 
 from libcpp.vector cimport vector

@@ -1,6 +1,6 @@
 # distutils: language=c++
 
-cdef extern from "../src/Mesh.cpp" namespace "odr":
+cdef extern from "../libOpenDRIVE/src/Mesh.cpp" namespace "odr":
     pass
 
 from libcpp.vector cimport vector

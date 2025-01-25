@@ -1,6 +1,6 @@
 # distutils: language=c++
 
-cdef extern from "../src/Geometries/CubicSpline.cpp":
+cdef extern from "../libOpenDRIVE/src/Geometries/CubicSpline.cpp":
     pass
 
 from libcpp.vector cimport vector

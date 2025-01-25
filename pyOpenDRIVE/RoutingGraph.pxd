@@ -1,6 +1,6 @@
 # distutils: language=c++
 
-cdef extern from "../src/RoutingGraph.cpp":
+cdef extern from "../libOpenDRIVE/src/RoutingGraph.cpp":
     pass
 
 from libcpp.vector cimport vector

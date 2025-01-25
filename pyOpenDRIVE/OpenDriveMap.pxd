@@ -1,16 +1,16 @@
 # distutils: language=c++
 
-cdef extern from "../src/OpenDriveMap.cpp":
+cdef extern from "../libOpenDRIVE/src/OpenDriveMap.cpp":
     pass
-cdef extern from "../src/Geometries/Spiral.cpp":
+cdef extern from "../libOpenDRIVE/src/Geometries/Spiral.cpp":
     pass
-cdef extern from "../src/Geometries/Spiral/odrSpiral.cpp":
+cdef extern from "../libOpenDRIVE/src/Geometries/Spiral/odrSpiral.cpp":
     pass
-cdef extern from "../src/Geometries/ParamPoly3.cpp":
+cdef extern from "../libOpenDRIVE/src/Geometries/ParamPoly3.cpp":
     pass
-cdef extern from "../src/Geometries/Arc.cpp":
+cdef extern from "../libOpenDRIVE/src/Geometries/Arc.cpp":
     pass
-cdef extern from "../src/Geometries/Line.cpp":
+cdef extern from "../libOpenDRIVE/src/Geometries/Line.cpp":
     pass
 
 from libcpp.vector cimport vector

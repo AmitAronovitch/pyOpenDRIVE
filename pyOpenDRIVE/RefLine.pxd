@@ -1,6 +1,6 @@
 # distutils: language=c++
 
-cdef extern from "../src/RefLine.cpp" namespace "odr":
+cdef extern from "../libOpenDRIVE/src/RefLine.cpp" namespace "odr":
     pass
 
 from libcpp.vector cimport vector
